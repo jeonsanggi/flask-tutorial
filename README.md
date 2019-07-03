@@ -31,6 +31,11 @@ pip install Flask
 set FLASK_APP=flaskr
 set FLASK_ENV=development
 
+# Database 초기화
+flask init-db
+
 # 실행
 flask run
 ```
+
+- 브라우저에서 http://127.0.0.1:5000/auth/register 접속
